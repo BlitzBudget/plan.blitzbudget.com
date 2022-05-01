@@ -33,7 +33,8 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
-    }
+    },
+    publicPath: 'https://www.blitzbudget.com/wealth-builder/'
   }
 }
 
