@@ -1,0 +1,6 @@
+{
+    "yaml.schemas": {
+        "https://json.schemastore.org/github-workflow.json": "file:///c%3A/Users/NagarjunNagesh/Documents/GitHub/Personal/wealth-builder-web/.github/workflows/deploy.yml"
+    },
+    "nuxt.isNuxtApp": true
+}
