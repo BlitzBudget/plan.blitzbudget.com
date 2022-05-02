@@ -50,10 +50,10 @@
 <style lang="scss">
 </style>
 <script>
-import TopNavbar from "../layouts/dashboard/TopNavbar.vue";
-import ContentFooter from "../layouts/dashboard/ContentFooter.vue";
-import DashboardContent from "../layouts/dashboard/Content.vue";
-import MobileMenu from "../layouts/dashboard/MobileMenu";
+import TopNavbar from "./TopNavbar.vue";
+import ContentFooter from "./ContentFooter.vue";
+import DashboardContent from "./Content.vue";
+import MobileMenu from "./MobileMenu";
 export default {
   components: {
     TopNavbar,
