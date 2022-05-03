@@ -35,6 +35,10 @@ module.exports = {
       }
     },
     publicPath: 'https://plan.blitzbudget.com/wealth-builder/'
-  }
+  },
+  plugins: [
+    '~/plugins/paperDashboard.js',
+    '~/router/index.js'
+  ]
 }
 

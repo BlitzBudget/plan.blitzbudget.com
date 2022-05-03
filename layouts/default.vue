@@ -1,53 +1,79 @@
 <template>
-  <div>
-    <nuxt/>
+  <div class="wrapper">
+    <side-bar>
+      <template slot="links">
+        <sidebar-link to="/" name="Dashboard" icon="ti-panel"/>
+        <sidebar-link to="/UserProfile" name="User Profile" icon="ti-user"/>
+        <sidebar-link to="/TableList" name="Table List" icon="ti-view-list-alt"/>
+        <sidebar-link to="/typography" name="Typography" icon="ti-text"/>
+        <sidebar-link to="/icons" name="Icons" icon="ti-pencil-alt2"/>
+        <sidebar-link to="/maps" name="Map" icon="ti-map"/>
+        <sidebar-link to="/notifications" name="Notifications" icon="ti-bell"/>
+      </template>
+      <mobile-menu>
+        <li class="nav-item">
+          <a class="nav-link">
+            <i class="ti-panel"></i>
+            <p>Stats</p>
+          </a>
+        </li>
+        <drop-down class="nav-item"
+                   title="5 Notifications"
+                   title-classes="nav-link"
+                   icon="ti-bell">
+          <a class="dropdown-item">Notification 1</a>
+          <a class="dropdown-item">Notification 2</a>
+          <a class="dropdown-item">Notification 3</a>
+          <a class="dropdown-item">Notification 4</a>
+          <a class="dropdown-item">Another notification</a>
+        </drop-down>
+        <li class="nav-item">
+          <a class="nav-link">
+            <i class="ti-settings"></i>
+            <p>Settings</p>
+          </a>
+        </li>
+        <li class="divider"></li>
+      </mobile-menu>
+    </side-bar>
+    <div class="main-panel">
+      <top-navbar></top-navbar>
+
+      <dashboard-content @click.native="toggleSidebar">
+
+      </dashboard-content>
+
+      <content-footer></content-footer>
+    </div>
   </div>
 </template>
-
-<style>
-html {
-  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: border-box;
-  margin: 0;
-}
-
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-}
-
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
-
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
-}
+<style lang="scss">
 </style>
+<script>
+import TopNavbar from "./dashboard/TopNavbar.vue";
+import ContentFooter from "./dashboard/ContentFooter.vue";
+import DashboardContent from "./dashboard/Content.vue";
+import MobileMenu from "./dashboard/MobileMenu";
+import SideBar from "@/components/SidebarPlugin/SideBar";
+import SidebarLink from "@/components/SidebarPlugin/SidebarLink";
+import DropDown from "@/components/Dropdown";
 
+export default {
+  components: {
+    TopNavbar,
+    ContentFooter,
+    DashboardContent,
+    MobileMenu,
+    SideBar,
+    SidebarLink,
+    DropDown
+  },
+  methods: {
+    toggleSidebar() {
+      if (this.$sidebar.showSidebar) {
+        this.$sidebar.displaySidebar(false);
+      }
+    }
+  }
+};
+</script>
