@@ -38,7 +38,7 @@ export default {
   methods: {
     hideSidebar() {
       if (this.autoClose) {
-        this.sidebar.displaySidebar(false);
+        this.$sidebar.displaySidebar(false);
       }
     },
     isActive() {

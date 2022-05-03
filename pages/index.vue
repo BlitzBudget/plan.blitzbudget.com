@@ -3,8 +3,8 @@
     <side-bar>
       <template slot="links">
         <sidebar-link to="/dashboard" name="Dashboard" icon="ti-panel"/>
-        <sidebar-link to="/stats" name="User Profile" icon="ti-user"/>
-        <sidebar-link to="/table-list" name="Table List" icon="ti-view-list-alt"/>
+        <sidebar-link to="/UserProfile" name="User Profile" icon="ti-user"/>
+        <sidebar-link to="/TableList" name="Table List" icon="ti-view-list-alt"/>
         <sidebar-link to="/typography" name="Typography" icon="ti-text"/>
         <sidebar-link to="/icons" name="Icons" icon="ti-pencil-alt2"/>
         <sidebar-link to="/maps" name="Map" icon="ti-map"/>
@@ -50,21 +50,28 @@
 <style lang="scss">
 </style>
 <script>
-import TopNavbar from "../layouts/dashboard/TopNavbar.vue";
-import ContentFooter from "../layouts/dashboard/ContentFooter.vue";
-import DashboardContent from "../layouts/dashboard/Content.vue";
-import MobileMenu from "../layouts/dashboard/MobileMenu";
+import TopNavbar from "@/layouts/dashboard/TopNavbar.vue";
+import ContentFooter from "@/layouts/dashboard/ContentFooter.vue";
+import DashboardContent from "@/layouts/dashboard/Content.vue";
+import MobileMenu from "@/layouts/dashboard/MobileMenu";
+import SideBar from "@/components/SidebarPlugin/SideBar";
+import SidebarLink from "@/components/SidebarPlugin/SidebarLink";
+import DropDown from "@/components/Dropdown";
+
 export default {
   components: {
     TopNavbar,
     ContentFooter,
     DashboardContent,
-    MobileMenu
+    MobileMenu,
+    SideBar,
+    SidebarLink,
+    DropDown
   },
   methods: {
     toggleSidebar() {
-      if (this.sidebar.showSidebar) {
-        this.sidebar.displaySidebar(false);
+      if (this.$sidebar.showSidebar) {
+        this.$sidebar.displaySidebar(false);
       }
     }
   }

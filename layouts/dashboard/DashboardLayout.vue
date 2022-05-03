@@ -63,8 +63,8 @@ export default {
   },
   methods: {
     toggleSidebar() {
-      if (this.sidebar.showSidebar) {
-        this.sidebar.displaySidebar(false);
+      if (this.$sidebar.showSidebar) {
+        this.$sidebar.displaySidebar(false);
       }
     }
   }

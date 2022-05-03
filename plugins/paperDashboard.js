@@ -1,3 +1,4 @@
+import Vue from 'vue'
 import Notify from "vue-notifyjs";
 import SideBar from "./sidebar";
 import GlobalComponents from "./globalComponents";
@@ -9,11 +10,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import "@/assets/sass/paper-dashboard.scss";
 import "@/assets/css/themify-icons.css";
 
-export default {
-  install(Vue) {
-    Vue.use(GlobalComponents);
-    Vue.use(GlobalDirectives);
-    Vue.use(SideBar);
-    Vue.use(Notify);
-  }
-}
+Vue.use(GlobalComponents);
+Vue.use(GlobalDirectives);
+Vue.use(SideBar);
+Vue.use(Notify);
