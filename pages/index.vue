@@ -7,12 +7,15 @@
           <div class="row align-items-center">
             <div class="col-lg-6">
               <div class="pr-5">
-                <h1 class="display-2 text-white font-weight-bold mb-0">Argon Dashboard PRO</h1>
-                <h2 class="display-4 text-white font-weight-light">A beautiful premium dashboard for Bootstrap 4.</h2>
-                <p class="text-white mt-4">Argon perfectly combines reusable HTML and modular CSS with a modern styling and beautiful markup throughout each HTML template in the pack.</p>
+                <h1 class="display-2 text-white font-weight-bold mb-0">Are you Struggling Financially?</h1>
+                <h2 class="display-4 text-white font-weight-light">Let me tell you that financial planning is the first
+                  step to go.</h2>
+                <p class="text-white mt-4">Not only does financial planning help you see where the money is being spent
+                  but it helps you see the potential you have in making your life better.</p>
                 <div class="mt-5">
-                  <nuxt-link to="/dashboard" class="btn btn-neutral my-2">Explore Dashboard</nuxt-link>
-                  <a href="https://www.creative-tim.com/product/nuxt-argon-dashboard-pro" class="btn btn-default my-2">Purchase now</a>
+                  <nuxt-link to="/dashboard" class="btn btn-neutral my-2">Start Planning</nuxt-link>
+                  <a href="https://app.blitzbudget.com" class="btn btn-default my-2">Start Actively Managing
+                    Finances</a>
                 </div>
               </div>
             </div>
@@ -22,19 +25,22 @@
                   <div class="card">
                     <div class="card-body">
                       <div class="icon icon-shape bg-gradient-red text-white rounded-circle shadow mb-4">
-                        <i class="ni ni-active-40"></i>
+                        <i class="ni ni-single-02"></i>
                       </div>
-                      <h5 class="h3">Components</h5>
-                      <p>Argon comes with over 70 handcrafted components.</p>
+                      <h5 class="h3">Privacy</h5>
+                      <p class="small">We will not store your data without your authorization, Full Stop. No surprised
+                        there!</p>
                     </div>
                   </div>
                   <div class="card">
                     <div class="card-body">
                       <div class="icon icon-shape bg-gradient-info text-white rounded-circle shadow mb-4">
-                        <i class="ni ni-active-40"></i>
+                        <i class="ni ni-watch-time"></i>
                       </div>
-                      <h5 class="h3">Plugins</h5>
-                      <p>Fully integrated and extendable third-party plugins that you will love.</p>
+                      <h5 class="h3">Take Control</h5>
+                      <p class="small">Money can take a form of its own and the money has the potential to control you
+                        if you are not
+                        in control.</p>
                     </div>
                   </div>
                 </div>
@@ -42,19 +48,20 @@
                   <div class="card mb-4">
                     <div class="card-body">
                       <div class="icon icon-shape bg-gradient-success text-white rounded-circle shadow mb-4">
-                        <i class="ni ni-active-40"></i>
+                        <i class="ni ni-tag"></i>
                       </div>
-                      <h5 class="h3">Pages</h5>
-                      <p>From simple to complex, you get a beautiful set of 15+ page examples.</p>
+                      <h5 class="h3">Free</h5>
+                      <p class="small">We believe financial planning should be available to everyone for free.</p>
                     </div>
                   </div>
                   <div class="card mb-4">
                     <div class="card-body">
                       <div class="icon icon-shape bg-gradient-warning text-white rounded-circle shadow mb-4">
-                        <i class="ni ni-active-40"></i>
+                        <i class="ni ni-money-coins"></i>
                       </div>
-                      <h5 class="h3">Documentation</h5>
-                      <p>You will love how easy is to to work with Argon.</p>
+                      <h5 class="h3">Future Planning</h5>
+                      <p class="small">See your Past, Present and Future Financial Life in one page. True data cannot
+                        lie.</p>
                     </div>
                   </div>
                 </div>
@@ -64,7 +71,8 @@
         </div>
       </div>
       <div class="separator separator-bottom separator-skew zindex-100">
-        <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1"
+          xmlns="http://www.w3.org/2000/svg">
           <polygon class="fill-default" points="2560 0 2560 100 0 100"></polygon>
         </svg>
       </div>
@@ -73,10 +81,11 @@
     <section class="py-6 pb-9 bg-default">
       <div class="row justify-content-center text-center">
         <div class="col-md-6">
-          <h2 class="display-3 text-white">A complete HTML solution</h2>
+          <h2 class="display-3 text-white">Financial Transparency</h2>
           <p class="lead text-white">
-            Argon is a completly new product built on our newest re-built from scratch framework structure that is meant to make our products more intuitive,
-            more adaptive and, needless to say, so much easier to customize. Let Argon amaze you with its cool features and build tools and get your project to a whole new level.
+            We are completely commited to letting you realize your financial plan to the best of our abilities by
+            providing capabilities to understand your expenses, express all your income and start planning for your
+            future for you to realize a financial plan.
           </p>
         </div>
       </div>
@@ -92,12 +101,13 @@
                     <div class="icon icon-shape bg-gradient-primary text-white rounded-circle mb-4">
                       <i class="ni ni-check-bold"></i>
                     </div>
-                    <h4 class="h3 text-primary text-uppercase">Based on Bootstrap 4</h4>
-                    <p class="description mt-3">Argon is built on top of the most popular open source toolkit for developing with HTML, CSS, and JS.</p>
+                    <h4 class="h3 text-primary text-uppercase">Write down your Expenses</h4>
+                    <p class="description mt-3">Writing down is pretty important to see everything that is going on.
+                      Expense is part behaviour, part necessity.</p>
                     <div>
-                      <span class="badge badge-pill badge-primary">bootstrap 4</span>
-                      <span class="badge badge-pill badge-primary">dashboard</span>
-                      <span class="badge badge-pill badge-primary">template</span>
+                      <span class="badge badge-pill badge-primary">Bills</span>
+                      <span class="badge badge-pill badge-primary">Mortgages</span>
+                      <span class="badge badge-pill badge-primary">Insurance</span>
                     </div>
                   </div>
                 </div>
@@ -106,14 +116,15 @@
                 <div class="card card-lift--hover shadow border-0">
                   <div class="card-body py-5">
                     <div class="icon icon-shape bg-gradient-success text-white rounded-circle mb-4">
-                      <i class="ni ni-istanbul"></i>
+                      <i class="ni ni-money-coins"></i>
                     </div>
-                    <h4 class="h3 text-success text-uppercase">Integrated build tools</h4>
-                    <p class="description mt-3">Use Argons's included npm and gulp scripts to compile source code, run tests, and more with just a few simple commands.</p>
+                    <h4 class="h3 text-success text-uppercase">Understanding your Income</h4>
+                    <p class="description mt-3">Seeing what you earn in the completeness of one page can be eye opening.
+                      Seeing it in conjunction with Expenses is wisdom!</p>
                     <div>
-                      <span class="badge badge-pill badge-success">npm</span>
-                      <span class="badge badge-pill badge-success">gulp</span>
-                      <span class="badge badge-pill badge-success">build tools</span>
+                      <span class="badge badge-pill badge-success">Wages</span>
+                      <span class="badge badge-pill badge-success">Investments</span>
+                      <span class="badge badge-pill badge-success">Interests</span>
                     </div>
                   </div>
                 </div>
@@ -122,14 +133,15 @@
                 <div class="card card-lift--hover shadow border-0">
                   <div class="card-body py-5">
                     <div class="icon icon-shape bg-gradient-warning text-white rounded-circle mb-4">
-                      <i class="ni ni-planet"></i>
+                      <i class="ni ni-vector"></i>
                     </div>
-                    <h4 class="h3 text-warning text-uppercase">Full Sass support</h4>
-                    <p class="description mt-3">Argon makes customization easier than ever before. You get all the tools to make your website building process a breeze.</p>
+                    <h4 class="h3 text-warning text-uppercase">Future Planning</h4>
+                    <p class="description mt-3">Plan to save for the one thing that you have always wanted to do, Be it
+                      for buying a home, investing for your retirement or travel.</p>
                     <div>
-                      <span class="badge badge-pill badge-warning">sass</span>
-                      <span class="badge badge-pill badge-warning">design</span>
-                      <span class="badge badge-pill badge-warning">customize</span>
+                      <span class="badge badge-pill badge-warning">Travel</span>
+                      <span class="badge badge-pill badge-warning">Car</span>
+                      <span class="badge badge-pill badge-warning">Home</span>
                     </div>
                   </div>
                 </div>
@@ -147,8 +159,9 @@
           </div>
           <div class="col-md-6 order-md-1">
             <div class="pr-md-5">
-              <h1>Awesome features</h1>
-              <p>This dashboard comes with super cool features that are meant to help in the process. Handcrafted components, page examples and functional widgets are just a few things you will see and love at first sight.</p>
+              <h1>Clean Interface</h1>
+              <p>Finances can be confusing, we understand it is complicated. We worked very hard to produce a clean
+                interface that works like magic.</p>
               <ul class="list-unstyled mt-5">
                 <li class="py-2">
                   <div class="d-flex align-items-center">
@@ -158,7 +171,7 @@
                       </div>
                     </div>
                     <div>
-                      <h4 class="mb-0">Carefully crafted components</h4>
+                      <h4 class="mb-0">Fluid interface to help plan</h4>
                     </div>
                   </div>
                 </li>
@@ -170,7 +183,7 @@
                       </div>
                     </div>
                     <div>
-                      <h4 class="mb-0">Amazing page examples</h4>
+                      <h4 class="mb-0">Simple 3 step planning process</h4>
                     </div>
                   </div>
                 </li>
@@ -182,7 +195,7 @@
                       </div>
                     </div>
                     <div>
-                      <h4 class="mb-0">Super friendly support team</h4>
+                      <h4 class="mb-0">Simulation of your plan at the final stage</h4>
                     </div>
                   </div>
                 </li>
@@ -200,9 +213,10 @@
           </div>
           <div class="col-md-6">
             <div class="pr-md-5">
-              <h1>Example pages</h1>
-              <p>If you want to get inspiration or just show something directly to your clients, you can jump start your development with our pre-built example pages.</p>
-              <nuxt-link to="/pages/user" class="font-weight-bold text-warning mt-5">Explore pages</nuxt-link>
+              <h1>Simulate your plan</h1>
+              <p>After you are done with planning. Simulate your plan and see exactly when you would reach your goal and
+                how to achieve them.</p>
+              <nuxt-link to="/dashboard" class="font-weight-bold text-info mt-5">Start Planning</nuxt-link>
             </div>
           </div>
         </div>
@@ -216,9 +230,11 @@
           </div>
           <div class="col-md-6 order-md-1">
             <div class="pr-md-5">
-              <h1>Lovable widgets and cards</h1>
-              <p>We love cards and everybody on the web seems to. We have gone above and beyond with options for you to organise your information. From cards designed for content, to pricing cards or user profiles, you will have many options to choose from.</p>
-              <nuxt-link to="/widgets" class="font-weight-bold text-info mt-5">Explore widgets</nuxt-link>
+              <h1>Integrate your plan</h1>
+              <p>Planning is not the end but the start of taking control of your finances. If you are happy with your
+                plan, integrate your plan with our application to keep track of your progress.</p>
+              <a href="https://app.blitzbudget.com" class="font-weight-bold text-warning mt-5">Explore our
+                application</a>
             </div>
           </div>
         </div>
@@ -228,18 +244,19 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center">
-            <h2 class="display-3">Nucleo Icons</h2>
+            <h2 class="display-3">Thats it!</h2>
             <p class="lead">
-              The official package contains over 21.000 icons which are looking great in combination with Argon Design System. Make sure you check all of them and use those that you like the most.
+              If you are still curious, check our blogs and learning platforms to know more about finances.
             </p>
             <div class="btn-wrapper">
-              <a href="https://demos.creative-tim.com/nuxt-argon-dashboard-pro/documentation/foundation/icons.html" class="btn btn-primary">View demo icons</a>
-              <a href="https://nucleoapp.com/?ref=1712" target="_blank" rel="noopener" class="btn btn-default mt-3 mt-md-0">View all icons</a>
+              <a href="https://blog.blitzbudget.com" class="btn btn-primary">View our blogs</a>
+              <a href="https://learn.blitzbudget.com" target="_blank" rel="noopener"
+                class="btn btn-default mt-3 mt-md-0">More about finances</a>
             </div>
           </div>
         </div>
         <div class="blur--hover">
-          <a href="https://demos.creative-tim.com/nuxt-argon-dashboard-pro/documentation/foundation/icons.html">
+          <nuxt-link to="/dashboard">
             <div class="icons-container blur-item mt-5">
               <!-- Center -->
               <i class="icon ni ni-diamond"></i>
@@ -260,8 +277,8 @@
               <i class="icon ni ni-camera-compact"></i>
               <i class="icon ni ni-chart-bar-32"></i>
             </div>
-            <span class="blur-hidden h5 text-success">Eplore all the 21.000+ Nucleo Icons</span>
-          </a>
+            <span class="blur-hidden h5 text-info">Isn't it time to start planning now?</span>
+          </nuxt-link>
         </div>
       </div>
     </section>
@@ -269,64 +286,17 @@
       <div class="container">
         <div class="row row-grid justify-content-center">
           <div class="col-lg-8 text-center">
-            <h2 class="display-3">Do you love this awesome <span class="text-success">Dashboard for Bootstrap 4?</span></h2>
-            <p class="lead">Cause if you do, it can be yours now. Hit the button below to navigate to get the free version or purchase a license for your next project. Build a new web app or give an old Bootstrap project a new look!</p>
+            <h2 class="display-3">Do you love this awesome <span class="text-success">financial planner?</span>
+            </h2>
+            <p class="lead">Cause if you do, then you could also help others fix their financial lifes. You may know a
+              friend or two who really needs this right now. Why not share it with them?</p>
             <div class="btn-wrapper">
-              <a href="https://www.creative-tim.com/product/nuxt-argon-dashboard?ref=nvadp-index-page" class="btn btn-neutral mb-3 mb-sm-0" target="_blank" rel="noopener">
-                <span class="btn-inner--text">Get FREE version</span>
+              <a href="mailto:?subject=Check this out&body=I just found this application, Check this out - https://plan.blitzbudget.com"
+                class="btn btn-success btn-icon mb-3 mb-sm-0">
+                <span class="btn-inner--icon"><i class="ni ni-email-83"></i></span>
+                <span class="btn-inner--text">Share by Email</span>
+                <span class="badge badge-md badge-pill badge-floating badge-danger border-white">now</span>
               </a>
-              <a href="https://www.creative-tim.com/product/nuxt-argon-dashboard-pro?ref=vadp-index-page" class="btn btn-success btn-icon mb-3 mb-sm-0">
-                <span class="btn-inner--icon"><i class="ni ni-basket"></i></span>
-                <span class="btn-inner--text">Purchase now</span>
-                <span class="badge badge-md badge-pill badge-floating badge-danger border-white">$99</span>
-              </a>
-            </div>
-            <div class="text-center">
-              <h4 class="display-4 mb-5 mt-5">Available on these technologies</h4>
-              <div class="row justify-content-center">
-                <div class="col-md-2 col-3 my-2">
-                  <el-tooltip placement="top" content="Bootstrap 4 - Most popular front-end component library">
-                    <a href="https://www.creative-tim.com/product/argon-dashboard?ref=nvadp-index-page" target="_blank" rel="noopener" aria-label="Bootstrap">
-                      <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/bootstrap.jpg" class="img-fluid rounded-circle shadow shadow-lg--hover" alt="Bootstrap image">
-                    </a>
-                  </el-tooltip>
-                </div>
-                <div class="col-md-2 col-3 my-2">
-                  <el-tooltip placement="top" content="Vue.js - The progressive javascript framework">
-                    <a href="https://www.creative-tim.com/product/nuxt-argon-dashboard?ref=nvadp-index-page" target="_blank" rel="noopener" aria-label="Vue">
-                      <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/vue.jpg" class="img-fluid rounded-circle" alt="Vue logo">
-                    </a>
-                  </el-tooltip>
-                </div>
-                <div class="col-md-2 col-3 my-2">
-                  <el-tooltip placement="top" content="[Coming Soon] Sketch - Digital design toolkit">
-                    <a href=" https://www.sketchapp.com/" target="_blank" rel="noopener" aria-label="Sketch">
-                      <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/sketch.jpg" class="img-fluid rounded-circle opacity-3" alt="Sketch logo">
-                    </a>
-                  </el-tooltip>
-                </div>
-                <div class="col-md-2 col-3 my-2">
-                  <el-tooltip placement="top" content="[Coming Soon] Adobe Photoshop - Software for digital images manipulation">
-                    <a href=" https://www.adobe.com/products/photoshop.html" target="_blank" rel="noopener" aria-label="Photoshop">
-                      <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/ps.jpg" class="img-fluid rounded-circle opacity-3" alt="Photoshop logo">
-                    </a>
-                  </el-tooltip>
-                </div>
-                <div class="col-md-2 col-3 my-2">
-                  <el-tooltip placement="top" content="Angular - One framework. Mobile ">
-                    <a href="https://www.creative-tim.com/product/argon-dashboard-angular?ref=nvadp-index-page" target="_blank" rel="noopener" aria-label="Angular">
-                      <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/angular.jpg" class="img-fluid rounded-circle" alt="Angular logo">
-                    </a>
-                  </el-tooltip>
-                </div>
-                <div class="col-md-2 col-3 my-2">
-                  <el-tooltip placement="top" content="React - A JavaScript library for building user interfaces">
-                    <a href="https://www.creative-tim.com/product/argon-dashboard-react?ref=nvadp-index-page" target="_blank" rel="noopener" aria-label="React">
-                      <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/react.jpg" class="img-fluid rounded-circle" alt="React logo">
-                    </a>
-                  </el-tooltip>
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -335,12 +305,12 @@
   </div>
 </template>
 <script>
-  import { Tooltip } from 'element-ui'
-  export default {
-    layout: 'AuthLayout',
-    name: 'home-page',
-    components: {
-      [Tooltip.name]: Tooltip
-    }
-  };
+import { Tooltip } from 'element-ui'
+export default {
+  layout: 'AuthLayout',
+  name: 'home-page',
+  components: {
+    [Tooltip.name]: Tooltip
+  }
+};
 </script>
