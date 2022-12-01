@@ -14,7 +14,7 @@
                   but it helps you see the potential you have in making your life better.</p>
                 <div class="mt-5">
                   <nuxt-link to="/dashboard" class="btn btn-neutral my-2">Start Planning</nuxt-link>
-                  <a href="https://app.blitzbudget.com" class="btn btn-default my-2">Start Actively Managing
+                  <a href="https://app.blitzbudget.com" target="_blank" class="btn btn-default my-2">Start Actively Managing
                     Finances</a>
                 </div>
               </div>
@@ -233,7 +233,7 @@
               <h1>Integrate your plan</h1>
               <p>Planning is not the end but the start of taking control of your finances. If you are happy with your
                 plan, integrate your plan with our application to keep track of your progress.</p>
-              <a href="https://app.blitzbudget.com" class="font-weight-bold text-warning mt-5">Explore our
+              <a href="https://app.blitzbudget.com" target="_blank" class="font-weight-bold text-warning mt-5">Explore our
                 application</a>
             </div>
           </div>
@@ -249,7 +249,7 @@
               If you are still curious, check our blogs and learning platforms to know more about finances.
             </p>
             <div class="btn-wrapper">
-              <a href="https://blog.blitzbudget.com" class="btn btn-primary">View our blogs</a>
+              <a href="https://blog.blitzbudget.com" target="_blank" class="btn btn-primary">View our blogs</a>
               <a href="https://learn.blitzbudget.com" target="_blank" rel="noopener"
                 class="btn btn-default mt-3 mt-md-0">More about finances</a>
             </div>
